@@ -116,7 +116,6 @@ margin-bottom: 0px;
 padding bottom: 0px;
 margin-top: 0px;
 padding-top: 0px;
-font-size: 2em;
  }
 
 nav ul li a {
@@ -129,7 +128,7 @@ float: left;
 border-right: 1px solid #fff;
 margin-top: 0px;
 padding-top: 0px;
-font-size: 2em;
+
 }
 footer {
 clear:both;
