@@ -1,0 +1,157 @@
+/*CSS Doc for mp2 showcase*/
+html *
+{
+   font-family: 'Pavanam', sans-serif;
+   height: 100%;
+
+}
+.name{
+
+  font-size: 2em;
+}
+/** { margin:0; padding:0; box-sizing:border-box; }*/
+h1{
+  color: #75B9BE;
+}
+h2{
+  color:#75B9BE;
+}
+/*h3{
+    color:#75B9BE;
+    font-size: 1.5em;
+}*/
+p{
+   font-size:   1.3em;
+}
+html, body {
+    margin:0;
+    padding:0;
+}
+#para1{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+#nameDiv{
+  /*background-color: #6290C3;*/
+}
+.name{
+  margin-bottom:: 0px;
+  padding-bottom: 0px;
+}
+#wrapper {
+width: 990px;
+/*background-color: #C7D66D;*/
+margin-left:auto;
+margin-right:auto;
+
+}
+#head{
+  border-bottom-style: solid;
+  border-bottom-color: #C7D66D;
+  border-bottom-width: 2px;
+  color: #75B9BE;
+  /*color: #C7D66D;*/
+  /*background-color: #C7D66D;*/
+}
+#outer{
+  /*background-color: #D5D5D5;*/
+padding: 0;
+border: 0;
+  height: 100%;
+  width: 100%;
+  /*background-color: #DCD0C0;*/
+}
+#title{
+  font-family: 'Pavanam', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+header {
+height: 75px;
+}
+
+nav {
+width:900px;
+}
+
+#content {
+float: left;
+width:650px;
+padding-left: 25px;
+padding-right: 0px;
+/*background-color: #D5D5D5;*/
+/*border-style: solid;
+border-color: #ff0000 #0000ff;*/
+border-left-color: #C7D66D;
+border-left-style: solid;
+border-left-width: 2px;
+
+
+}
+
+#rightcol {
+float: left;
+width: 240px;
+padding-right: 10px;
+margin-right: 20px;
+/*background-color: #D7CEC7;*/
+}
+nav ul {
+padding-top: 0px;
+margin-top: 0px;
+padding-left: 10;
+margin-left: 10;
+/*background-color: #209a9b;*/
+float: left;
+width: 100%;
+}
+
+
+nav ul li {
+display: inline;
+margin-bottom: 0px;
+padding bottom: 0px;
+margin-top: 0px;
+padding-top: 0px;
+font-size: 2em;
+ }
+
+nav ul li a {
+
+padding: 4px 4px;
+/*background-color: #209a9b;*/
+/*color: #FFF;*/
+text-decoration: none;
+float: left;
+border-right: 1px solid #fff;
+margin-top: 0px;
+padding-top: 0px;
+font-size: 2em;
+}
+footer {
+clear:both;
+height: 50px;
+text-align: center;
+/*background-color: #C7D66D;*/
+}
+.resources{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+#info{
+  margin-bottom: 5px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
