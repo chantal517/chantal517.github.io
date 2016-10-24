@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Mizzou</title>
+	<link href="jquery.bxslider.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.bxSlider.min.js"></script>
+    <script>
+    	$(document).ready(function() {
+        	$("#slider").bxSlider({
+			  auto: true,
+			  minSlides: 1,
+			  maxSlides: 1,
+        randomStart:true,
+        pause: 5000,
+			  slideWidth: 300,
+			  slideMargin: 15,
+			});
+    	});
+    </script>
+</head>
+  <body>
+
+        <h1>About Mizzou</h1>
+        <p>Pictures that capture Mizzou.</p>
+        <ul id="slider">
+            <li><img src="images/i1.jpeg" alt="" title="mu1"></li>
+            <li><img src="images/i2.jpg" alt="" title="mu2"></li>
+            <li><img src="images/i3.jpg" alt="" title="mu3"></li>
+        </ul>
+        <h2>Mizzou campus tour</h2>
+        <iframe width="525" height="315" src="https://www.youtube.com/embed/S08CNtmaows" frameborder="0" allowfullscreen></iframe>
+        <h2> Audio of Sherlock Holmes Popular at Mizzou</h2>
+        <p> click the play button below</p>
+        <iframe src="https://archive.org/embed/adventures_holmes" width="500" height="140" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+        <h2> Tom and Jerry Clip</h2>
+        <iframe src="https://archive.org/embed/Jolly_Fish_1932" width="520" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+      </body>
+</html>
