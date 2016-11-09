@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>XML to JSON</title>
+    <link href="main.css" rel="stylesheet">
+    <link href"https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.css" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="  https://cdn.jsdelivr.net/lightbox2/2.51/jquery-ui-1.8.18.custom.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+      $('#request').click(function(e) {
+            e.preventDefault();
+			$.ajax({
+				type: "get",
+				url: "facts.json",
+				beforeSend: function() {
+					$("#facts").html("Loading...");
+				},
+				timeout: 10000,
+				error: function(xhr, status, error) {
+					alert("Error: " + xhr.status + " - " + error);
+				},
+				dataType: "json",
+				success: function(data) {
+					$("#facts").html("");
+            var i;
+            for( i =0; i < 5; i++){
+              $("#facts").append("<h3>" +
+    							data.facts[i].factnum + "</h3>" +
+    					 	  data.facts[i].description +  "<br>");
+            }
+				}
+			});
+		});
+  });
+    </script>
+</head>
+
+<body>
+
+
+    <ul id="nav">
+	<li><a href="#">Mizzou Facts</a>
+		<ul>
+			<li><a href="#">Campus</a></li>
+			<li><a href="#">Academics</a></li>
+			<li><a href="#">Sports</a></li>
+		</ul>
+	</li>
+
+	<li><a href="#">Missouri Facts</a>
+		<ul>
+			<li><a href="#">History</a></li>
+			<li><a href="#">Wildlife</a></li>
+			<li><a href="#">Weather</a></li>
+		</ul>
+	</li>
+  <li><button id="request">Click here for facts</button>
+	</li>
+</ul>
+
+    <main>
+        <h2></h2>
+
+		<div id="facts"></div>
+    <a href="images/campus-miz.jpg" data-lightbox="campus-miz" data-title="Mizzou Campus"><img src="images/campus-miz.jpg"alt="Campus" height="150" width="220"></a>
+    <a href="images/Missouri-Campus.jpg" data-lightbox="campus-miz" data-title="Mizzou Campus"><img src="images/Missouri-Campus.jpg"alt="Campus" height="150" width="220"></a>
+
+    </main>
+
+
+</body>
+</html>
