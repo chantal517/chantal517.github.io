@@ -1,0 +1,46 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+#aboutME{
+  text-align: center;
+  padding-top: 85px;
+
+}
+.desc{
+  font-size: 1.4em;
+  padding-top: 10px;
+}
+.jesse{
+  height: 250px;
+  width: 400px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+
+}
+
+#edu{
+  text-align: center;
+}
+#name{
+  font-size: 5em;
+  text-align: center;
+  padding-top: 180px;
+  height: 35%;
+}
+.element{
+  text-align: center;
+  font-size: 3em;
+
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  white-space: pre;
+  font-size: 1.1em;
+}
