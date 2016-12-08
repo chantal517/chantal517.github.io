@@ -28,6 +28,9 @@ $( document ).ready(function() {
   $('#show').click(function(){
       $('#examples').show();
   });
+  $('#show2').click(function(){
+      $('#examples2').show();
+  });
 
   var currentLocation = window.location.href;
 
