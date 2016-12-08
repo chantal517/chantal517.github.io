@@ -48,7 +48,10 @@ para3.appendChild(node3);
 var element3 = document.getElementById("answer3");
 element3.appendChild(para3);
 
-
+$(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
 
 
 });
