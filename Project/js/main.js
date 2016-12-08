@@ -5,18 +5,21 @@ $("#tabs").tabs();
 
 //jquery selectors by id 4a
 $('#mean').click(function(){
- window.location.href='http://localhost:8888/mean.html';
+ window.location.href='https://chantal517.github.io/Project/mean.html#';
 })
 
 //jquery methods- click - 4b
 $('#median').click(function(){
- window.location.href='http://localhost:8888/median.html';
+ window.location.href='https://chantal517.github.io/Project/median.html';
 })
 $('#mode').click(function(){
- window.location.href='http://localhost:8888/mode.html';
+ window.location.href='https://chantal517.github.io/Project/mode.html';
 })
 $('#contact').click(function(){
- window.location.href='http://localhost:8888/contact.html';
+ window.location.href='https://chantal517.github.io/Project/contact.html';
+})
+$('#stats').click(function(){
+ window.location.href='https://chantal517.github.io/Project/index.html';
 })
 //jquery effects hide 4d
 $('#examples').hide();
