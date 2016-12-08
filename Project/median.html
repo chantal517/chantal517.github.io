@@ -38,8 +38,10 @@
   <div class="container">
       <div class="steps">
         <br>
-        <p>First, add up all the individual numbers in the sequence to get the sum</p>
-        <p>Next divide that sum by how many numbers there are in total.</p>
+        <p>The Median is the "middle" of a sorted list of numbers.</p>
+        <p>To find the Median, <strong>sort</strong> the numbers from smallest to largest and find the middle number.</p>
+        <p>In even cases,there will be 2 numbers in the middle. In this case, locate those 2 numbers, and find the mean of them. </p>
+        <p>The mean of the 2 numbers in the middle will be your median</p>
       </div>
       <div class="plus">
       <a id="show" href="#"><h3 style="display:inline">+</h3><p style="display:inline">&nbspClick here for Examples</p></a>
@@ -70,7 +72,93 @@
       <p>Divide by how many numbers (there are 5 numbers): 35 / 5 = 7</p>
       <div id="answer2">
       <h3 class="answer"> The mean is 7 </h3>
+      </div><!DOCTYPE html>
+      <html>
+      <head>
+        <script
+          src="https://code.jquery.com/jquery-2.2.4.min.js"
+          integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+          crossorigin="anonymous">
+        </script>
+        <script
+          src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+          integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+          crossorigin="anonymous">
+        </script>
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+        <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+
+      </head>
+      <body>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a id="stats" class="navbar-brand" href="#">StatisticsHelp</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li ><a href="#" id="mean">Mean</a></li>
+              <li><a href="#" id="median">Median</a></li>
+              <li><a href="#" id="mode">Mode</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" id="contact">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="container">
+            <div class="steps">
+              <br>
+              <p>First, add up all the individual numbers in the sequence to get the sum</p>
+              <p>Next divide that sum by how many numbers there are in total.</p>
+            </div>
+            <div class="plus">
+            <a id="show" href="#"><h3 style="display:inline">+</h3><p style="display:inline">&nbspClick here for Examples</p></a>
+          </div>
+            </br>
+          </div>
+          <div id="examples">
+          <div class="menu"id="tabs">
+          <ul>
+              <li><a href="#tabs-1">Example 1</a>
+              </li>
+              <li><a href="#tabs-2">Examples 2</a>
+              </li>
+              <li><a href="#tabs-3">Example 3</a>
+              </li>
+          </ul>
+          <div class="ex"id="tabs-1">
+            <p> Calculate the mean of these numbers : 6, 11, 7 </p>
+            <p>Add the numbers: 6 + 11 + 7 = 24</p>
+            <p>Divide by how many numbers (there are 3 numbers): 24 / 3 = 8</p>
+            <div id="answer">
+            <h3 class="answer"> The mean is 8 </h3>
+            </div>
+          </div>
+          <div class="ex" id="tabs-2">
+            <p> Calculate the mean of these numbers : 9, 10, 4, 8, 4 </p>
+            <p>Add the numbers: 9 + 10 + 4 + 8 + 4 = 35</p>
+            <p>Divide by how many numbers (there are 5 numbers): 35 / 5 = 7</p>
+            <div id="answer2">
+            <h3 class="answer"> The mean is 7 </h3>
+            </div>
+          </div>
+          <div class="ex" id="tabs-3">
+            <p> Calculate the mean of these numbers : 4, 6, 8, 12 </p>
+            <p>Add the numbers: 4 + 6 + 8 + 12 = 30</p>
+            <p>Divide by how many numbers (there are 4 numbers): 30 / 4 = 7.5</p>
+            <div id="answer3">
+            <h3 class="answer"> The mean is 7.5</h3>
+            </div>
       </div>
+      <div id="tabid"></div>
+      </div>
+      </body>
+      </html>
+
     </div>
     <div class="ex" id="tabs-3">
       <p> Calculate the mean of these numbers : 4, 6, 8, 12 </p>
