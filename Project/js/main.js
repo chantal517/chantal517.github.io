@@ -53,5 +53,7 @@ $(".nav a").on("click", function(){
    $(this).parent().addClass("active");
 });
 
+var currentLocation = window.location.href;
+console.log(currentLocation);
 
 });
