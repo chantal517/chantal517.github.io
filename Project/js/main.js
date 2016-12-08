@@ -29,6 +29,9 @@ $('#show').click(function(){
  $('#examples').show();
 });
 
+var currentLocation = window.location.href;
+
+if(currentLocation == "https://chantal517.github.io/Project/mean.html#"){
 //DOM creates elements and appends element 3b-1
 var para = document.createElement("p");
 var node = document.createTextNode("Good Job working through the example!");
@@ -47,6 +50,7 @@ var node3 = document.createTextNode("Good Job working through the example!");
 para3.appendChild(node3);
 var element3 = document.getElementById("answer3");
 element3.appendChild(para3);
+}
 
 $(".nav a").on("click", function(){
    $(".nav").find(".active").removeClass("active");
@@ -55,5 +59,6 @@ $(".nav a").on("click", function(){
 
 var currentLocation = window.location.href;
 console.log(currentLocation);
+console.log('sdklfsd');
 
 });
