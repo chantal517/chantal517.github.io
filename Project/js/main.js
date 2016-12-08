@@ -31,6 +31,7 @@ $('#show').click(function(){
 
 var currentLocation = window.location.href;
 
+//JS if statement 3a
 if(currentLocation == "https://chantal517.github.io/Project/mean.html#"){
 //DOM creates elements and appends element 3b-1
 var para = document.createElement("p");
