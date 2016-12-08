@@ -2,7 +2,7 @@ $( document ).ready(function() {
 
 //jquery ui widget - tabs - 5a
   $("#tabs").tabs();
-  $("#tabs2").tabs();
+
 
   //jquery selectors by id 4a
   $('#mean').click(function(){
