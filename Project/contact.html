@@ -16,7 +16,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
   <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
-
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+  <script src="js/formValidate.js"></script>
 </head>
 <body>
   <nav class="navbar navbar-default">
@@ -35,7 +36,7 @@
     </div>
   </nav>
   <div class="container">
-  <form>
+  <form name="contactForm">
   	<div class="form-group"> <!-- Name field -->
   		<label class="control-label " for="name">Name</label>
   		<input class="form-control" id="name" name="name" type="text"/>
@@ -57,7 +58,7 @@
   	</div>
 
   	<div class="form-group">
-  		<button class="btn btn-primary " name="submit" type="submit">Submit</button>
+  		<button id="submitButton" class="btn btn-primary " name="submit" type="submit">Submit</button>
   	</div>
 
   </form>

@@ -3,6 +3,13 @@
 text-align: center;
 
 }
+.container{
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
 
 a{
     text-decoration: none;
