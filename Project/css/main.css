@@ -13,9 +13,7 @@ text-align: center;
 .container{
   font-size: .9em;
 }
-.menu{
-  padding-bottom: 10px;
-}
+
 
 a{
     text-decoration: none;
@@ -30,6 +28,7 @@ a{
 #examples{
   width: 500px;
   margin: auto;
+  padding-bottom: 10px;
 }
 .ex{
   height: 250px;
