@@ -56,7 +56,7 @@ $( document ).ready(function() {
       var element3 = document.getElementById("answer3");
       element3.appendChild(para3);
   }
-  if(currentLocation == "https://chantal517.github.io/Project/contact.html#"){
+  if(currentLocation == "https://chantal517.github.io/Project/contact.html"){
     getLocation();
   }
 
