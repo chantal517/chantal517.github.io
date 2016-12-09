@@ -88,5 +88,5 @@ function getLocation() {
 
 function showPosition(position) {
     alert("You are requesting assistance from Latitude: " + position.coords.latitude +
-    "<br> and Longitude: " + position.coords.longitude + " We will contact the nearest support center to you");
+    "and Longitude: " + position.coords.longitude + " We will contact the nearest support center to you");
 }
