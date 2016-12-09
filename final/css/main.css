@@ -37,8 +37,8 @@ body{
   text-align: center;
 }
 #rasbPiImage{
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 400px;
 }
 .footer {
   position: absolute;
