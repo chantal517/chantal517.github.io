@@ -76,17 +76,17 @@ function toAlert(message) {
     alert(message);
 }
 
-var loc = document.getElementById("location");
+
 //HTML5 geo locatiion API functions for requirement 6c
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
     } else {
-        loc.innerHTML = "Geolocation is not supported by this browser.";
+        alert("Geolocation is not supported by this browser.");
     }
 }
 
 function showPosition(position) {
-    loc.innerHTML = "You are requesting assistance from Latitude: " + position.coords.latitude +
-    "<br> and Longitude: " + position.coords.longitude + " We will contact the nearest support center to you";
+    alert("You are requesting assistance from Latitude: " + position.coords.latitude +
+    "<br> and Longitude: " + position.coords.longitude + " We will contact the nearest support center to you");
 }
