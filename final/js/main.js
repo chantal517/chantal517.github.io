@@ -13,6 +13,7 @@ $('#eduLink').click(function(){
  window.location.href='https://chantal517.github.io/final/templates/education.html';
 })
 
+//Jquery show effect for requirement 2
 $('#show').click(function(){
   $('#rasbPiImage').show();
 })
