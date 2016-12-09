@@ -3,13 +3,13 @@ $( document ).ready(function() {
     console.log( "ready!" );
 
   $('#aboutMElink').click(function(){
-   window.location.href='https://chantal517.github.io/webProj/templates/aboutMe.html ';
+   window.location.href='https://chantal517.github.io/final/templates/aboutMe.html ';
 })
 $('#projects').click(function(){
- window.location.href='https://chantal517.github.io/webProj/templates/projects.html';
+ window.location.href='https://chantal517.github.io/final/templates/projects.html';
 })
 $('#eduLink').click(function(){
- window.location.href='https://chantal517.github.io/webProj/templates/education.html';
+ window.location.href='https://chantal517.github.io/final/templates/education.html';
 })
 
 $(".element").typed({
