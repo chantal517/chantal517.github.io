@@ -37,7 +37,8 @@ body{
   text-align: center;
 }
 #rasbPiImage{
-  height: 250px;
+  margin-top: 5px;
+  height: 210px;
   width: 400px;
 }
 .footer {
