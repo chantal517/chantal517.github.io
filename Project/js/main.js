@@ -76,7 +76,7 @@ function toAlert(message) {
     alert(message);
 }
 
-var loc = document.getElementById("demo");
+var loc = document.getElementById("location");
 //HTML5 geo locatiion API functions for requirement 6c
 function getLocation() {
     if (navigator.geolocation) {
@@ -87,6 +87,6 @@ function getLocation() {
 }
 
 function showPosition(position) {
-    loc.innerHTML = "Latitude: " + position.coords.latitude +
-    "<br>Longitude: " + position.coords.longitude;
+    loc.innerHTML = "You are requesting assistance from Latitude: " + position.coords.latitude +
+    "<br> and Longitude: " + position.coords.longitude + " We will contact the nearest support center to you";
 }
