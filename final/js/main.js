@@ -1,6 +1,7 @@
 
 $( document ).ready(function() {
-    console.log( "ready!" );
+
+  $('#rasbPiImage').hide();
 
   $('#aboutMElink').click(function(){
    window.location.href='https://chantal517.github.io/final/templates/aboutMe.html ';
