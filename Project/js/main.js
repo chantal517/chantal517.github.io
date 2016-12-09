@@ -56,6 +56,9 @@ $( document ).ready(function() {
       var element3 = document.getElementById("answer3");
       element3.appendChild(para3);
   }
+  if(currentLocation == "https://chantal517.github.io/Project/contact.html#"){
+    getLocation();
+  }
 
   $(".nav a").on("click", function(){
       $(".nav").find(".active").removeClass("active");
@@ -71,4 +74,19 @@ $( document ).ready(function() {
 //custom function for a4 requirement
 function toAlert(message) {
     alert(message);
+}
+
+var loc = document.getElementById("demo");
+//HTML5 geo locatiion API functions for requirement 6c
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        loc.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    loc.innerHTML = "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
 }
