@@ -33,6 +33,9 @@ body{
   font-size: 3em;
 
 }
+.plus{
+  text-align: center;
+}
 .footer {
   position: absolute;
   right: 0;

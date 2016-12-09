@@ -12,6 +12,7 @@ $('#eduLink').click(function(){
  window.location.href='https://chantal517.github.io/final/templates/education.html';
 })
 
+//Using types.js JS library to create dynamic typing on website
 $(".element").typed({
     strings: ["Tech Enthusiast", "Student", "Software Engineer", "Tech Enthusiast - Student - Software Engineer"],
     typeSpeed: 0,
