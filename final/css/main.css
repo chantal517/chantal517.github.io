@@ -38,6 +38,7 @@ body{
 }
 #rasbPiImage{
   margin-top: 5px;
+  padding-top: 10px;
   height: 210px;
   width: 400px;
 }
