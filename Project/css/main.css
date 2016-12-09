@@ -28,7 +28,8 @@ a{
 #examples{
   width: 500px;
   margin: auto;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
 }
 .ex{
   height: 250px;
