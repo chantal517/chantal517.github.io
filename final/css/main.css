@@ -36,6 +36,10 @@ body{
 .plus{
   text-align: center;
 }
+#rasbPi{
+  height: 50px;
+  width: 50px;
+}
 .footer {
   position: absolute;
   right: 0;
