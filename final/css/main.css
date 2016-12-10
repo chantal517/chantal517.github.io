@@ -9,8 +9,8 @@ body{
    margin: auto;
 }
 .indivProj{
-  margin-top: 10px;
-  margin-bottom: 15px;
+  padding-bottom: 15px;
+  padding-top: 5px;
 }
 
 #aboutME{
