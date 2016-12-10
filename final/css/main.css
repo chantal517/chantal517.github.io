@@ -75,7 +75,8 @@ body{
 #phoneImage{
   height: 300px;
   width: 150px;
-  border-radius: 30px;
+  border-radius: 80px;
+  margin-bottom: 25px;
 }
 
 .footer {
