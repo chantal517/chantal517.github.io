@@ -1,7 +1,7 @@
 
 $( document ).ready(function() {
 
-  $('#Project1').hide();
+  $('#projectsList').hide();
 
   $('#aboutMElink').click(function(){
    window.location.href='https://chantal517.github.io/final/templates/aboutMe.html ';
@@ -15,7 +15,7 @@ $('#eduLink').click(function(){
 
 //Jquery show effect for requirement 2
 $('#show').click(function(){
-  $('#Project1').show();
+  $('#projectsList').show();
 })
 //Using types.js JS library to create dynamic typing on website
 $(".element").typed({
