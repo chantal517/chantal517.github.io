@@ -14,12 +14,12 @@ body{
 }*/
 .midList a{
     text-decoration: none;
-     line-height: 70%;
 }
 .indivProj{
   padding-bottom: 35px;
   padding-top: 5px;
   text-align: center;
+  line-height: 70%;
 }
 
 #aboutME{
