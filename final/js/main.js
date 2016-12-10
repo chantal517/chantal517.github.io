@@ -15,7 +15,7 @@ $('#eduLink').click(function(){
 
 //Jquery show effect for requirement 2
 $('#show').click(function(){
-  $('#rasbPiImage').show();
+  $('#Project1').show();
 })
 //Using types.js JS library to create dynamic typing on website
 $(".element").typed({
