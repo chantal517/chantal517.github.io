@@ -4,6 +4,10 @@ body{
 #Project1{
   text-align: center;
 }
+.midList ul{
+   width: 70%;
+   margin: auto;
+}
 
 #aboutME{
   text-align: center;
