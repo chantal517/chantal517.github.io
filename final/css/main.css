@@ -8,6 +8,10 @@ body{
    width: 70%;
    margin: auto;
 }
+.indivProj{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
 
 #aboutME{
   text-align: center;
