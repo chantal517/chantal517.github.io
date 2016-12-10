@@ -2,15 +2,16 @@ body{
   /*font-family: 'Raleway', sans-serif;*/
   font-family: 'Josefin Sans', sans-serif;
     color: #777;
+    font-size: 1.2em;
 }
 #Project1{
   text-align: center;
 }
-.midList ul{
+/*.midList ul{
    width: 70%;
    margin: auto;
    padding-bottom: 15px;
-}
+}*/
 .midList a{
     text-decoration: none;
 }
