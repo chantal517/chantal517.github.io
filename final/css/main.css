@@ -72,6 +72,10 @@ body{
   margin-bottom: 20px;
 
 }
+#phoneImage{
+  height: 300px;
+  width: 200px;
+}
 
 .footer {
   position: absolute;
